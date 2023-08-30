@@ -1,0 +1,55 @@
+
+.signup-bg-img{
+  background-image: url("bg-image-login.jpg");
+}
+
+body{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #5395ec 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  min-width: 350px;
+}
+
+.quote{
+  margin-top: 100px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  font-size: 6rem;
+  width: 100%;
+  color: rgb(47, 67, 126);
+}
+
+.title{
+  font-family: 'Ubuntu Mono', monospace !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
